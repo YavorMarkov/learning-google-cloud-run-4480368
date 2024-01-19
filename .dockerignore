@@ -1,0 +1,31 @@
+# Git and GitHub related
+.git/
+.github/
+
+# Ignore all markdown documentation
+*.md
+
+# Ignore specific files that are not required
+.dockerignore
+.gitignore
+Dockerfile
+LICENSE
+NOTICE
+README.md
+CONTRIBUTING.md
+
+# Ignore other non-essential files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.pytest_cache/
+.DS_Store
+node_modules/
+*.log
+tmp/
